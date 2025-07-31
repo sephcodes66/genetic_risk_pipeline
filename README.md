@@ -4,6 +4,14 @@
 
 This project is a bioinformatics pipeline designed to analyze genetic variants associated with Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD). The pipeline integrates genetic data with intervention response data to build predictive models of genetic risk.
 
+## Visual Analysis
+![Model Performance Comparison](results/figures/model_performance_comparison.png)
+*Figure 1: Comparison of performance metrics across the three machine learning models after handling class imbalance with SMOTE.*
+
+![ROC Curve Comparison](results/figures/roc_curve_comparison.png)
+*Figure 2: Comparison of the ROC curves for the three machine learning models.*
+
+
 ### Personal Motivation
 
 I'm passionate about leveraging computational tools to understand the genetic underpinnings of complex neurological disorders. This project is a way for me to explore this interest and showcase my skills in data engineering, statistical analysis, and machine learning in a bioinformatics context. I'm particularly interested in the potential for genetic data to inform personalized medicine and improve outcomes for individuals with neurodevelopmental disorders.
@@ -113,12 +121,6 @@ The pipeline is run via scripts in the `scripts/` directory.
 ## Results
 
 The pipeline generates a variety of outputs in the `results/` directory, providing a comprehensive overview of the data and analysis. The key results are visualized below:
-
-![Model Performance Comparison](results/figures/model_performance_comparison.png)
-*Figure 1: Comparison of performance metrics across the three machine learning models after handling class imbalance with SMOTE.*
-
-![ROC Curve Comparison](results/figures/roc_curve_comparison.png)
-*Figure 2: Comparison of the ROC curves for the three machine learning models.*
 
 *   **Tables (`results/tables/`):**
     *   `data_summary.csv`: A summary of the preprocessed data.
